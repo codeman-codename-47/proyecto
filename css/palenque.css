@@ -1,0 +1,304 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background: #fff;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*HEADER*/
+
+body header {
+	width: 100%;
+}
+
+body header ul {
+	width: 100%;
+}
+
+body header .menu {
+	width: 100%;
+	height: 34px;
+	background: #02C54D;
+	text-align: center;
+}
+
+body header .menu ul li {
+	list-style: none;
+	display: inline-block; 
+	padding: 0px 55px;
+}
+
+body header .menu ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 22px;
+}
+
+body header .subheader {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 0px 20px;
+	background: #fff;
+	width: 100%;
+	color: #4FC4D4;
+	font-size: 22px;
+}
+
+body header .subheader p,
+body header .subheader .whats {
+	padding: 35px 0px;
+}
+
+body header .subheader .gmail {
+	padding: 42px 0px;
+}
+
+body header .subheader p {
+	position: relative;
+	left: 135px;
+}
+
+body header .subheader .whats,
+body header .subheader .gmail {
+	position: relative;
+	left: -75px;
+}
+
+body header .subheader .gmail {
+	left: -200px;
+}
+
+body header .subheader .logo {
+	width: 17%;
+	padding: 0;
+	margin: 0;
+} 
+
+body header .subheader .logo img {
+	width: 100%;
+}
+
+body header .subheader .whats {
+	width:45px;
+}
+
+body header .subheader .whats img {
+	width: 100%;
+}
+
+body header .subheader .gmail {
+	width: 40px;
+}
+
+body header .subheader .gmail img {
+	width: 100%;
+}
+/*//HEADER*/
+
+/*MAIN*/
+body .main {
+	width: 100%;
+}
+
+body .main .cabecera {
+	width: 100%;
+	background: #01AE33;
+	color: #fff;
+	text-align: center;
+	padding: 80px 0;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	font-size: 25px;
+	position: relative;
+	top: -20px;
+	margin-bottom: 50px;
+}
+
+/*TARJETAS*/
+body .main .contenedor-gen {
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: auto;
+}
+
+body .main .tarjeta {
+	width: 30%;
+	height: 650px;
+	background: #000;
+	border-radius: 13px;
+	margin-bottom: 160px;
+	border-left: 1px solid #fff;
+	color: #fff;
+	text-align: center;
+	padding: 60px 38px;
+	font-size: 16px;
+}
+
+body .main .tarjeta h2 {
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+body .main .tarjeta ul li {
+	padding-bottom: 20px;
+	text-align: left;
+}
+
+body .main .uno {
+	background-image: url(../recursos/palenque/AA1.jpg);
+	background-size: cover;
+	background-position: left;
+	z-index: 10;
+}
+
+body .main .dos {
+	background-image: url(../recursos/palenque/PAL1.jpg);
+	background-size: cover;
+	background-position: left;	
+	z-index: 20;
+}
+
+body .main .tres {
+	background-image: url(../recursos/palenque/AA2.jpg);
+	background-size: cover;
+	z-index: 30;
+}
+
+body .main .cuatro {
+	background-image: url(../recursos/palenque/AA3.jpg);
+	background-size: cover;
+}
+
+body .main .cinco {
+	background-image: url(../recursos/palenque/MI2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+body .main .seis {
+	background-image: url(../recursos/palenque/PAL5.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+body .main .siete {
+	background-image: url(../recursos/palenque/MI3.jpg);
+	background-size: cover;
+}
+
+body .main .ocho {
+	background-image: url(../recursos/palenque/RB1.jpg);
+	background-size: cover;
+	background-position: right;
+}
+
+body .main .nueve {
+	background-image: url(../recursos/palenque/PAL4.jpg);
+	background-size: cover;
+}
+
+body .main .diez {
+	background-image: url(../recursos/palenque/PAL3.jpg);
+	background-size: cover;
+}
+
+body .main .once {
+	background-image: url(../recursos/palenque/SE1.jpg);
+	background-size: cover;
+	background-position: center;
+}
+/*//TARJETAS*/
+
+/*//MAIN*/
+
+/*FOOTER*/
+
+body footer {
+	width: 100%;
+	background: #333333;
+	text-align: center;
+	color: #fff;
+	height: 230px;
+	padding: 0;
+	margin: 0;
+}
+
+body footer .redes {
+	width: 67%;
+	margin:auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 50px;
+}
+
+body footer .face {
+	width: 75px;
+}
+
+body footer .face img {
+	width: 100%;
+}
+
+body footer .twitt {
+	width: 65px;
+}
+
+body footer .twitt img {
+	width: 100%;
+}
+
+body footer .insta {
+	width: 57px;
+	height: 57px;
+	border-radius: 100%;
+	background: #833AB4;
+	position: relative;
+}
+
+body footer .insta img {
+	width: 55%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+}
+
+body footer {
+	position: relative;
+}
+body .contenedor {
+	position: absolute;
+	bottom: 3px;
+	right: 0;
+	left: 0;
+	width: 70%;
+	margin: auto;
+}
+
+body footer .contenedor .titular {
+	font-size: 14px;
+}
+
+body footer .contenedor .desarrollador {
+	font-size: 11px;
+}
+
+body footer .contenedor .derechos {
+	font-size: 14px;
+}
+
+/*//FOOTER*/
