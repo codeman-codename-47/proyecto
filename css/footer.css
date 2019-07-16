@@ -1,0 +1,80 @@
+/*FOOTER*/
+
+body footer {
+	width: 100%;
+	background: #333333;
+	text-align: center;
+	color: #fff;
+	height: 230px;
+	padding: 0;
+	margin: 0;
+}
+
+body footer .redes {
+	width: 67%;
+	margin:auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 50px;
+}
+
+body footer .face {
+	width: 75px;
+}
+
+body footer .face img {
+	width: 100%;
+}
+
+body footer .twitt {
+	width: 65px;
+}
+
+body footer .twitt img {
+	width: 100%;
+}
+
+body footer .insta {
+	width: 57px;
+	height: 57px;
+	border-radius: 100%;
+	background: #833AB4;
+	position: relative;
+}
+
+body footer .insta img {
+	width: 55%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+}
+
+body footer {
+	position: relative;
+}
+body .contenedor {
+	position: absolute;
+	bottom: 3px;
+	right: 0;
+	left: 0;
+	width: 70%;
+	margin: auto;
+}
+
+body footer .contenedor .titular {
+	font-size: 14px;
+}
+
+body footer .contenedor .desarrollador {
+	font-size: 11px;
+}
+
+body footer .contenedor .derechos {
+	font-size: 14px;
+}
+
+/*//FOOTER*/
